@@ -1,0 +1,293 @@
+html, body{
+	margin: 0;
+	padding:0;
+	
+}
+
+body{
+	background-color: gray;
+	font-family: Arial
+}
+
+#wrap{
+	width:70%;
+	margin:0 auto;
+	background-color: white;
+	
+}
+
+
+
+header{
+	background: rgb(117,255,8);
+	background: linear-gradient(90deg, rgba(117,255,8,1) 14%, rgba(48,181,97,1) 60%, rgba(0,35,255,1) 100%);
+	text-align: center;
+ 	overflow:auto;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+}
+
+header img{
+	width: 80%;	
+}
+
+nav{
+	background-color: #0e3d91;	
+	text-align: center;
+	padding: 10px 0;
+	font-family: Verdana;
+}
+nav a {
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:black;
+	/* background-color: navy; */
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	background-color: white;
+	padding: 15px;
+	text-align: center;
+ 	overflow:auto;
+}
+section h1{
+	color: #4286f4;
+	font-size: 180%;
+	margin:0;
+}
+
+.home footer{
+	background-color: #3393FF;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.button{
+	background-color: blue;
+	color:white;
+	text-decoration:none;
+	margin: 15px 0;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 8px;
+	
+}
+
+a.button:hover{
+	background-color: green;
+	
+}
+.home section{
+	background-color: lightgreen;
+	
+}
+.home section .move{
+	width: 95%;
+	height: 95%;
+	background-color: navy;
+	opacity: .95;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	color: white;
+	color: #4286f4;
+	font-size: 180%;
+}
+.home figure{
+	width: 22%;
+	border: 2px solid white; 
+	margin:10px;
+	text-align: center;
+	padding: 6px;
+	background-color: rgba(0,0,0,.8);
+	float:left;
+}
+
+.home figure img{
+	width:50%;
+}
+
+.home figcaption{
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.spring header{
+	background: rgb(255,240,8);
+	background: linear-gradient(90deg, rgba(255,240,8,1) 0%, rgba(109,181,48,1) 56%, rgba(0,255,102,1) 100%);
+}
+.spring nav{
+	background-color: lightgreen;
+	color:black;
+}
+.spring nav a{
+	color:black;
+}
+.spring section{
+	background-color: green;	
+	padding: 0;
+	margin: 0;
+} 
+.spring section figure{
+	width:180%;
+		text-align: left;
+}
+.spring section p{
+	text-align: center;
+	color: white;
+}
+
+.spring section figure img{
+	width:50%;
+	border: 1px solid white; 
+	/* margin:10px; */
+	text-align: left;
+	/* padding: 6px; */
+	background-color: yellow;
+}
+.spring footer{
+	background-color: lightgreen;
+		color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.summer header{
+	background: rgb(255,223,8);
+	background: linear-gradient(90deg, rgba(255,223,8,1) 0%, rgba(178,181,48,1) 68%, rgba(198,255,0,1) 100%);
+}
+.summer nav{
+	background-color: orange;
+
+}
+.summer nav a{
+	color:white;
+}
+.summer section{
+	background-color: yellow;	
+	padding: 0;
+	margin: 0;
+} 
+.summer section figure{
+	width:180%;
+		text-align: left;
+}
+.summer section p{
+	text-align: center;
+	color: black;
+}
+
+.summer section figure img{
+	width:50%;
+	border: 1px solid white; 
+	/* margin:10px; */
+	text-align: left;
+	/* padding: 6px; */
+	background-color: yellow;
+}
+.summer footer{
+	background-color: orange;
+		color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+
+
+.fall header{
+	background: rgb(255,8,8);
+	background: linear-gradient(90deg, rgba(255,8,8,1) 0%, rgba(181,105,48,1) 42%, rgba(255,166,0,1) 100%);
+}
+.fall nav{
+	background-color: darkorange;
+}
+.fall nav a{
+	color:white;
+}
+.fall section{
+	background-color: orange;
+	padding: 0;
+	margin: 0;
+} 
+.fall section figure{
+	width:180%;
+		text-align: left;
+}
+.fall section p{
+	text-align: center;
+	color: white;
+}
+
+.fall section figure img{
+	width:50%;
+	border: 1px solid white; 
+	/* margin:10px; */
+	text-align: left;
+	/* padding: 6px; */
+	background-color: yellow;
+}
+.fall footer{
+	background-color: orange;
+		color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.winter header{
+	background: rgb(8,255,198);
+	background: linear-gradient(90deg, rgba(8,255,198,1) 0%, rgba(48,100,181,1) 68%, rgba(0,18,255,1) 100%);
+}
+.winter nav{
+	/* background-color: lightgreen; */
+}
+.winter nav a{
+	color:white;
+}
+.winter section{
+	background-color: blue;
+	padding: 0;
+	margin: 0;
+} 
+.winter section figure{
+	width:180%;
+	text-align: left;
+}
+.winter section p{
+	text-align: center;
+	color: white;
+}
+
+.winter section figure img{
+	width:50%;
+	border: 1px solid white; 
+	/* margin:10px; */
+	text-align: left;
+	/* padding: 6px; */
+	/* background-color: yellow; */
+}
+.winter footer{
+	background-color: navy;
+		color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
