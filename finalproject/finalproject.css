@@ -11,7 +11,6 @@ body{
 #wrap{
 	width:100%;
 	margin:0 auto;
-	background-image: url(HeaderFinalProject.jpg);
 	background-repeat: no-repeat;
 	/* background-color: white; */
 	font-family: Arial
@@ -172,7 +171,6 @@ section h2{
 	#wrap{
 		width:70%;
 		margin:0 auto;
-		background-image: url(HeaderFinalProject.jpg);
 		background-repeat: no-repeat;
 		/* background-color: white; */
 		font-family: Arial
