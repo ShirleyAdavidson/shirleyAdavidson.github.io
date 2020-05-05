@@ -1,0 +1,256 @@
+
+html, body{
+	margin: 0;
+	padding:0;
+	background-color: lightgray;
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	background-color: lightgray
+}
+#wrap{
+	width:70%;
+	margin:0 auto;
+	background-image: url(HeaderFinalProject.jpg);
+	background-repeat: no-repeat;
+	/* background-color: white; */
+	font-family: Arial
+}
+#wrap img{
+	width: 80%;
+}
+.slideshow{
+	width:38%;
+	height:38%;
+	padding: 0;
+	margin:0 auto;
+	float: right;
+}
+header{
+	background:#A25106;
+	text-align: center;
+}
+header img{
+	/* width: 80%; */
+	
+}
+nav{
+	background-color: #A25106;	
+	text-align: center;
+	padding: 10px 0;
+}
+nav a {
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#A25106;
+	background-color: AntiqueWhite;
+	font-weight: bold;
+}
+nav li {
+	display: inline;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+section{
+	background-color: AntiqueWhite;
+	padding: 20px;
+	overflow: auto;
+	border: 5px solid black;
+	margin:2px;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+footer{
+	background-color: lightgray	;
+	color: black;
+	text-align: center;
+	padding: 10px 0;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+}
+.leftcol{
+	margin: 0;
+	width:49%;
+	background-color: AntiqueWhite;
+	float:left;
+	padding:0px;
+	position: relative;
+	
+}
+.rightcol{
+	margin: 0;
+	width:49%;
+	background-color: AntiqueWhite;
+	float: right;
+	padding:0;
+	
+}
+section h2{
+	margin: 0;
+	padding: 0;
+}
+.Contact section p{
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	margin:0 auto;
+}
+.leftcol2{
+	margin: 0;
+	width:50%;
+	/* background-color: lightgray; */
+	float:left;
+	padding:0px;
+	position: relative;
+}
+
+.rightcol2{
+	margin: 0;
+	width:50%;
+	/* background-color: lightgray; */
+	float: right;
+	padding:0;
+}
+.rightcol2 p{
+	text-align: center;
+}
+.leftcol3{
+	margin: 0;
+	width:49%;
+	background-color: AntiqueWhite;
+	float:left;
+	padding:0px;
+	position: relative;
+	/* border: 3px solid lightgray; */
+}
+.rightcol3{
+	margin: 0;
+	width:49%;
+	background-color: AntiqueWhite;
+	float: right;
+	padding:0;
+	/* border: 3px solid lightgray; */
+}
+.rightcol3 form {
+    display: inline-block;
+	text-align: center;
+}
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@media screen and (max-width:600px){
+	body{
+		background-color:beige;
+	}
+	#wrap{
+		width:70%;
+		margin:0 auto;
+		background-image: url(HeaderFinalProject.jpg);
+		background-repeat: no-repeat;
+		/* background-color: white; */
+		font-family: Arial
+	}
+	nav a{
+		display:block;
+		width:100%;
+		padding:20px 0;
+	}
+	nav ul, nav li{
+		margin:0;
+		padding:0;
+	}
+	nav{
+		padding:0;
+	}
+	.column {
+	  float: left;
+	  width: 33.33%;
+	}
+	aside,article{
+		float:none;
+		width:96%;
+	}
+	.leftcol{
+		margin: 0;
+		width:49%;
+		background-color: AntiqueWhite;
+		float:none;
+		padding:0px;
+		position: relative;
+	}
+	.rightcol{
+		margin: 0;
+		width:49%;
+		background-color: AntiqueWhite;
+		float: none;
+		padding:0;
+	}
+	.leftcol2{
+		margin: 0;
+		width:50%;
+		background-color: lightgray;
+		float:none;
+		padding:0px;
+		position: relative;
+	}
+	.rightcol2{
+		margin: 0;
+		width:50%;
+		background-color: lightgray;
+		float: none;
+		padding:0;
+	}
+	.leftcol3{
+		margin: 0;
+		width:49%;
+		background-color: AntiqueWhite;
+		float:none;
+		padding:0px;
+		position: relative;
+		/* border: 3px solid lightgray; */
+	}
+	.rightcol5{
+		margin: 0;
+		width:49%;
+		background-color: AntiqueWhite;
+		float: none;
+		padding:0;
+		/* border: 3px solid lightgray; */
+	}
+	.leftcol5{
+		margin: 0;
+		width:30%;
+		background-color: AntiqueWhite;
+		float:none;
+		padding:0px;
+		position: relative;
+		/* border: 3px solid lightgray; */
+	}
+}
