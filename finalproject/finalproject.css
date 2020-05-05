@@ -9,7 +9,7 @@ body{
 	background-color: lightgray
 }
 #wrap{
-	width:90%;
+	width:70%;
 	margin:0 auto;
 	
 	background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body{
 	font-family: Arial
 }
 #wrap img{
-	width: 40%;
+	width: 20%;
 }
 .slideshow{
 	width:38%;
@@ -170,7 +170,7 @@ section h2{
 		background-color:beige;
 	}
 	#wrap{
-		width:90%;
+		width:70%;
 		margin:0 auto;
 		background-repeat: no-repeat;
 		/* background-color: white; */
